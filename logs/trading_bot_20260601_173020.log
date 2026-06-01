@@ -1,0 +1,14 @@
+2026-06-01 17:30:20 | INFO     | root                   | ======================================================================
+2026-06-01 17:30:20 | INFO     | root                   | Trading Bot Session Started
+2026-06-01 17:30:20 | INFO     | root                   | Log file : logs\trading_bot_20260601_173020.log
+2026-06-01 17:30:20 | INFO     | root                   | ======================================================================
+2026-06-01 17:30:20 | DEBUG    | bot.validators         | Symbol validated: BTCUSDT
+2026-06-01 17:30:20 | DEBUG    | bot.validators         | Side validated: SELL
+2026-06-01 17:30:20 | DEBUG    | bot.validators         | Order type validated: LIMIT
+2026-06-01 17:30:20 | DEBUG    | bot.validators         | Quantity validated: 0.01
+2026-06-01 17:30:20 | DEBUG    | bot.validators         | Price validated: 90000.0
+2026-06-01 17:30:20 | INFO     | bot.validators         | Validation passed → symbol=BTCUSDT, side=SELL, type=LIMIT, qty=0.01, price=90000.0
+2026-06-01 17:30:24 | INFO     | bot.client             | BinanceClient initialized (Testnet)
+2026-06-01 17:30:24 | INFO     | bot.orders             | Placing LIMIT order → SELL 0.01 BTCUSDT @ 90000.0
+2026-06-01 17:30:24 | INFO     | bot.client             | → Request  | POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 90000.0, 'timeInForce': 'GTC', 'timestamp': 1780315224450}
+2026-06-01 17:30:25 | INFO     | bot.client             | ← Response | {'orderId': 13693443840, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'GSqH3JZ2NjAB5Nz20LJcFm', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780315224202}

@@ -1,0 +1,13 @@
+2026-06-01 17:24:05 | INFO     | root                   | ======================================================================
+2026-06-01 17:24:05 | INFO     | root                   | Trading Bot Session Started
+2026-06-01 17:24:05 | INFO     | root                   | Log file : logs\trading_bot_20260601_172405.log
+2026-06-01 17:24:05 | INFO     | root                   | ======================================================================
+2026-06-01 17:24:05 | DEBUG    | bot.validators         | Symbol validated: BTCUSDT
+2026-06-01 17:24:05 | DEBUG    | bot.validators         | Side validated: BUY
+2026-06-01 17:24:05 | DEBUG    | bot.validators         | Order type validated: MARKET
+2026-06-01 17:24:05 | DEBUG    | bot.validators         | Quantity validated: 0.01
+2026-06-01 17:24:05 | INFO     | bot.validators         | Validation passed → symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.01, price=None
+2026-06-01 17:24:08 | INFO     | bot.client             | BinanceClient initialized (Testnet)
+2026-06-01 17:24:09 | INFO     | bot.orders             | Placing MARKET order → BUY 0.01 BTCUSDT
+2026-06-01 17:24:09 | INFO     | bot.client             | → Request  | POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1780314849067}
+2026-06-01 17:24:10 | INFO     | bot.client             | ← Response | {'orderId': 13692959404, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '31rKEQCFaSE5oT8coPRBvo', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780314849054}
